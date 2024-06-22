@@ -44,11 +44,32 @@ namespace InfoApi001.Controllers
         {
             return new string[]
             {
-            "Learn ASP.NET Core",
-            "Learn Entity Framework",
-            "Learn Docker",
-            "Learn Kubernetes",
-            "ArrayLists"
+            "string and StringBuilder",
+            "numbers: int, decimal, long, float, double",
+            "dates",
+            "boolean",
+            "(typed) arrays, Join(), Split(), multidimensional arrays",
+            "operators, including ternary and null coalescing operator",
+            "if/switch",
+            "foreach, for, while, do/while",
+            "custom types, e.g. books, reports, employees, etc.",
+            "head vs. stack, simple classes and structs",
+            "extension methods",
+            "consuming and creating events",
+            "generic List<T>",
+            "generic Stack<T>",
+            "generic Queue<T>",
+            "generic Dictionary<TKey,TValue>",
+            "LINQ to objects",
+            "LINQ to SQL",
+            "object-oriented programming with classes",
+            "constructors",
+            "properties, methods, fields",
+            "private, protected, internal, public",
+            "virtual/override, abstract, static",
+            "abstract classes and interfaces",
+            "OOP design patterns",
+            "Decorator Pattern"
             };
         }
     }
