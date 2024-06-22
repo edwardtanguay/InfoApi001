@@ -7,7 +7,7 @@ namespace InfoApi001.Controllers
     [ApiController]
     [Route("[controller]")]
     [EnableCors("AllowSpecificOrigins")]
-    public class WeatherForecastController : ControllerBase
+    public class InfoController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
@@ -16,14 +16,14 @@ namespace InfoApi001.Controllers
             "ng", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<InfoController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public InfoController(ILogger<InfoController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet(Name = "GetInfo")]
         public IEnumerable<WeatherForecast> Get()
         {
             // InfoManager infoManager = new InfoManager();
