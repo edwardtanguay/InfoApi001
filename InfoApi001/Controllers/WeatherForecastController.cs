@@ -48,7 +48,7 @@ namespace InfoApi001.Controllers
             "Learn Entity Framework",
             "Learn Docker",
             "Learn Kubernetes",
-            "nnn"
+            "ArrayLists"
             };
         }
     }
